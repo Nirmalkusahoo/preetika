@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 1180px;
+  color: #f15a29;
+}
+
+.header-logo {
+  max-width: 158px;
+}
+
+.header-nav-wrapper {
+  width: calc(100% - 158px);
+  //font-size: 0.7rem;
+  //line-height: 1.29;
+}
+
+.header-nav-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  margin: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+
+}
+
+.nav-link:hover {
+  color: #f15a29;
+}
